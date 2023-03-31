@@ -1,10 +1,15 @@
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400&family=Righteous&display=swap');
 
+/* Insert this code at the specified position */
+html {
+  font-size: 16px;
+}
+
 /* Basic CSS styles */
 body {
   background-color: black;
-  font-family: 'Red Hat Display', 'Righteous', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   color: white;
 }
 
@@ -13,12 +18,50 @@ a {
   text-decoration: none;
   color: white;
   font-family: 'Red Hat Display';
+  font-size: 1.2rem;
+}
+
+/* Add button style */
+button {
+  background-color: #0099cc;
+  color: white;
+  font-family: 'Red Hat Display', cursive;
+  font-size: 1.5rem;
+  margin: 20px;
+  padding: 18px 24px;
+  border: none;
+  border-radius: 12px; /* Add rounded corners */
+  box-shadow: none; /* Remove default shadowing */
 }
 
 /* Remove list decoration for ul elements */
 ul {
   list-style-type: none;
 
+}
+
+h1 {
+  font-family: 'Righteous';
+  font-size: 3rem;
+  color: #ffcc00;
+  margin: 0px;
+  text-align: center; /* Center the text */
+}
+
+h2 {
+  font-family: 'Red Hat Display';
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Red Hat Display';
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: center;
 }
 
 .navbar {
@@ -49,4 +92,19 @@ ul {
   display: none;
   cursor: pointer;
   font-size: 24px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 75vh;
+  max-width: 65%;
+  margin: 0 auto; /* Add this line to horizontally center the hero section */
+}
+
+.section-title {
+  color:#ffcc00;
+  font-weight: 700;
 }
