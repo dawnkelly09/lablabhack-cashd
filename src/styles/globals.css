@@ -108,3 +108,18 @@ h3 {
   color:#ffcc00;
   font-weight: 700;
 }
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.card {
+  flex: 1;
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
