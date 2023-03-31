@@ -32,3 +32,21 @@ ul {
   display: flex;
   gap: 20px;
 }
+
+/* Add media query for tablet and mobile sized screens */
+@media screen and (max-width: 768px) {
+  .navbar-links {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+}
+
+/* Hamburger menu style */
+.hamburger-menu {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+}
