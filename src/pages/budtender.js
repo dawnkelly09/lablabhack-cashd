@@ -10,8 +10,12 @@ const Budtender = () => {
       <Header />
 
       <main>
-        <h1>Budtender Page</h1>
-        // Add your components and content here
+        <h1>Our virtual budtender helps you find your perfect high</h1>
+        <h2>Your cannabis questions, answered 24/7</h2>
+        <p>Even the best dispensary and clinic staff can get too busy for in-depth questions. Cash'd has you covered with judgement free answers to your cannabis questions 24/7.</p>
+        {/*text input area*/}
+        {/*Submit button*/}
+        {/* */}
       </main>
     </>
   );
