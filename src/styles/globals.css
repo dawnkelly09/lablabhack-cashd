@@ -117,7 +117,7 @@ h3 {
 
 .card {
   flex: 1;
-  margin: 0 10px;
+  margin: 0 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
