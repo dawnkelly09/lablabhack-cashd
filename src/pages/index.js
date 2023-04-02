@@ -36,20 +36,23 @@ export default function Home() {
                 {
                   id: 1,
                   imgSrc: "/images/img1.jpg",
-                  title: "Card 1 Title",
-                  description: "Card 1 description text",
+                  title: "Budtender",
+                  description: "Our virtual budtender is available 24/7, deeply knowledgeable, and always happy to help - without any judgement. Ask any cannabis question you have - no matter how basic or complex. Whatever you are looking for, we're here to help you find it.",
+                  button: "Ask the Budtender",
                 },
                 {
                   id: 2,
                   imgSrc: "/images/img2.jpg",
-                  title: "Card 2 Title",
-                  description: "Card 2 description text",
+                  title: "Stash",
+                  description: "With Cash'd, you'll have access to a stash database to keep track of your purchases and create a personalized inventory and purchase history. No more forgetting where you found your new favorite strain.",
+                  button: "Create Stash",
                 },
                 {
                   id: 3,
                   imgSrc: "/images/img3.jpg",
-                  title: "Card 3 Title",
-                  description: "Card 3 description text",
+                  title: "Sessions",
+                  description: "Use Sessions to document your cannabis consumption experiences. Capture notes with as little or as much detail as you like, rate your experience, and create product reviews to help guide future purchases.",
+                  button: "Start Session",
                 },
             ].map((card) => (
               <div key={card.id} className="card">
@@ -61,7 +64,7 @@ export default function Home() {
                 />
                 <h3>{card.title}</h3>
                 <p>{card.description}</p>
-                <button>Learn More</button>
+                <button>{card.button}</button>
               </div>))
             }
             </div>
